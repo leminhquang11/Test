@@ -1,0 +1,30 @@
+	touch tên_file : tạo một file mới
+	ls: liệt kê
+	git checkout tên-branch : di chuyển tới branch(nhánh) đấy
+	git push branch_1(origin) branch_2 : đưa branch 2 nối vào branch 
+1 trên github
+	git commit -m "nội dung" : đẩy file đã add lên local
+	git add "tên file" : add file đấy vào commit(tương tự 
+save)
+	git add . : add tất cả các file vừa chỉnh sửa để chuẩn 
+bị cho quá trình commit (tương tự save)
+	git push : đẩy lên remote
+	git status : hiển thị trạng thái code
+	git diff [đường dẫn file] : xem các thay đổi
+	git log: cho xem quá trình thay đổi và các đường link để 
+tiện chỉnh sửa
+	git revert: -> ctrl C->shift :q! : cập nhật kết quả ở 
+đường link mình lấy ở log lên local(nếu muốn thay đổi trên github thì phải push lên lần nữa)
+	git pull : kéo dữ liệu từ branch đang checkout đến về 
+local
+	cat .git/HEAD: check xem mình đang ở branch nào
+	git checkout branch_1 -> git merge branch_2: gộp branch
+2 vào branch 1
+	git branch -d tên_branch : xóa branch(lưu ý branch trên
+p được merge về master)
+	git remote add tên_file đường_link->git push(lấy từ trên 
+github): đưa file lên remote (github)
+	git clone đường_link: tạo thư mục chứa project mình muốn lấy từ 
+trên remote
+
+
