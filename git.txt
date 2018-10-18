@@ -27,4 +27,12 @@ github): đưa file lên remote (github)
 	git clone đường_link: tạo thư mục chứa project mình muốn lấy từ 
 trên remote
 
+* để có thể kết nối giữa git và github thì cần phải có khóa ssh:
+Cách tạo key ssh:
+	stept 1: cd ~/.ssh && ssh-keygen
+	stept 2:On OS X run: cat id_rsa.pub | pbcopy
+			On Linux run: cat id_rsa.pub | xclip
+			On Windows (via Cygwin/Git Bash) run: cat id_rsa.pub | clip
+
+	stept 3: copy link đã mã hóa vào ssh trên github
 
